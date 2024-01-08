@@ -71,6 +71,26 @@ header h1{
     font-weight: 900;
     line-height: 95px;
 }
+.big-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.paragraph{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
 /* category */
 .category{
     text-align: center;
@@ -185,32 +205,49 @@ header h1{
     border: none;
     margin-top: 48px;
 }
+/* coming soon */
+.coming_soon{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.left_area h1{
+    text-align: left;
+}
+.left_area p{
+    width: 393px;
+}
+.img_area{
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_area h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.right_area p{
+    width: 276px;
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
 /* portfolio */
 .portfolio{
     margin: 0 auto;
 }
 .portfolio h1{
     text-align: left;
-}
-.portfolio h2{
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
-    margin-top: 16px;
-    margin-bottom: 22px;
-}
-.portfolio p{
-    width: 896px;
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
 }
 .portfolio_images{
     margin-top: 48px;
@@ -219,6 +256,15 @@ header h1{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
+    cursor: pointer;
+    
+}
+.portfolio_images img{
+    transition: 0.2s;
+}
+.portfolio_images img:hover{
+    margin-top: -4px;
+    margin-bottom: -4px;
 }
 /* footer */
 footer{
