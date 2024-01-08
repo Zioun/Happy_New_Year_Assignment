@@ -82,7 +82,7 @@ header{
 header h4{
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
+    font-family: Merriweather !important;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -173,6 +173,7 @@ header h1{
     background-color: transparent;
     border: none;
     outline: none;
+    margin-left: 32px;
 }
 .party img{
     margin-left: -60px;
@@ -275,7 +276,7 @@ header h1{
 }
 .holiday .text_content p{
     margin: 0 auto;
-    width: 1068px;
+    width: 880px !important;
 }
 .holiday .image_area{
     width: 100%;
