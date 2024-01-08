@@ -242,6 +242,56 @@ header h1{
     margin-top: 16px;
     margin-bottom: 43px;
 }
+/* holiday */
+.holiday{
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.holiday .text_content{
+    text-align: center;
+}
+.holiday .text_content h1{
+    color: #070211;
+}
+.holiday .text_content h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+.holiday .text_content span{
+    color: #F00;
+}
+.holiday .text_content p{
+    margin: 0 auto;
+    width: 1068px;
+}
+.holiday .image_area{
+    width: 100%;
+    background-image: url("../images/rectangle_2.png");
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.holiday .left_img img{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-top: 100px;
+}
+.holiday .right_img .img-1{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 175px;
+}
+.holiday .right_img .img-2{
+    margin-top: 101px;
+}
 /* portfolio */
 .portfolio{
     margin: 0 auto;
